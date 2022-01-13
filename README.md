@@ -35,13 +35,15 @@ We will be using data obtained from the Monster India API.
 - https://crawlfeeds.com/datasets/monster-india-jobs-dataset    
   
 We will also be using the following skills obtained during this FinTech Bootcamp:
-1. SQL
+1. Database
 2. Python
 3. API
 4. Algorithm
-5. AWS
+5. Cloud
 6. Forecast
 7. Big data
+8. Dashboard
+9. Project Management
 
 #
 
@@ -50,7 +52,7 @@ As part of the U of MN FinTech Bootcamp, we have obtained the necessary skills t
   
 <img src="./images/Skills.png" width="500" height="500" />
   
-We selected seven key skills from this list to use in our analysis, as mentioned above.  
+We selected key skills from this course to use in our analysis, as listed above.  
 #
 
 ##  Data Preparation and Analysis:
