@@ -9,7 +9,9 @@ Prepared by: Andrew Crawford, Margee Lancaster Rachel Pierce, Jinhyeong Park
 #
 
 ## Project Title:
-Predicting FinTech Bootcamp Graduate Salaries
+Predicting FinTech Bootcamp Graduate Salaries  
+
+![image](./images/programmingsalaries.png)
 
 #
 
@@ -21,20 +23,32 @@ Predicting FinTech Bootcamp Graduate Salaries
 
 #
 
-## Project Description/Outline:
+## Project Objective and Hypothesis  
+  
+Our objective was to research and learn what salaries are possible with skills obtained in this FinTech Bootcamp.  We used the Monster India API to retrieve data regarding job descriptions, skills, and salaries to determine the following:  
+- What jobs require skills from this bootcamp?  
+- What are the potential jobs and salaries for graduates with these skills?  
+- Can we predict an accurate salary range based on these skills?  
 
-Our project is to research and learn what salaries are possible with skills obtained in this FinTech Bootcamp.  We will be using the Monster India API which includes salaries in rupees since the US-based API required a significant fee to use.  We will use the API to retrieve data regarding job descriptions, skills, and salaries to determine the following:
-- What jobs require skills from this bootcamp?
-- What are the potential jobs and salaries for graduates with these skills?
-- Can we predict an accurate salary range based on these skills?
+Our hypothesis is that the more key skills you possess, the higher the salary.  
+    
+![image](./images/salaryafterbootcamp.png)
 
 #
 
+## Brief Background of Key Skills:
+As part of the U of MN FinTech Bootcamp, we have obtained the necessary skills to automate and improve financial services using cutting-edge technology.  Skills gained at the conclusion of Bootcamp include the following:   
+  
+<img src="./images/Skills.png" width="400" height="400" />
+  
+We selected key skills from this course to use in our analysis.
+#
+
 ## Datasets Used:
-We will be using data obtained from the Monster India API.
+We used data obtained from the Monster India API.
 - https://crawlfeeds.com/datasets/monster-india-jobs-dataset    
   
-We will also be using the following skills obtained during this FinTech Bootcamp:
+We selected the following skills obtained during this FinTech Bootcamp to use in our model:
 1. Database
 2. Python
 3. API
@@ -45,41 +59,82 @@ We will also be using the following skills obtained during this FinTech Bootcamp
 8. Dashboard
 9. Project Management
 
+We also used like-terms in our model to capture these skills using various terminology.  
+
+<img src="./images/indemandskills.png" width="300" height="300" />
+
 #
 
-## Brief Background of Top Skills and Job Descriptions:
-As part of the U of MN FinTech Bootcamp, we have obtained the necessary skills to automate and improve financial services using cutting-edge technology.  Skills gained include the following:   
+##  Data Phases:
+Our process consisted of data exploration,  data preparation, and data cleanup. 
   
-<img src="./images/Skills.png" width="500" height="500" />
+- *Data Exploration:* Google seaches, API searches, Monster India API, FinTech Bootcamp Curriculum  
+- *Data Preparation:* Searching through variables in Spyder, selecting key data, narrowing down jobs, determining key skills
+- *Data Cleanup:* Dropping unnecessary information, searching the data to find jobs that include at least one key skill
   
-We selected key skills from this course to use in our analysis, as listed above.  
-#
+Data Issues: 
+- Issues include salaries in Indian rupees, not USD, so conversion was necessary
+- Determining like-words for key skills, may not capture all 
+- As shown in the graph below, the most broad salary range includes at least one skill.
 
-##  Data Preparation and Analysis:
-Based on our review of the data included in the Monster India API, we compelted the following key steps:
-1. Data Cleanup:  Cleaned the data in order to achieve reasonable results, such as removing job postings without salary information (those that say "Not Disclosed"), removed unnecessary columns, checked for nulls, etc.  
-2.  Data Analysis - We reviewed our updated data and dropped any jobs that did not include any keywords (selected skills).  We then converted the salary from Indian rupees to US dollars and reset the index.
-3. Training/Testing - ADD
-4. Prediction Model - ADD
-5. Chatbot - ADD
+<img src="./images/salarydistributiontotalskills.png" width="900" height="300" />
 
  # 
 
-## Presentation:
+## Training/Testing and Predictive Model Evaluation:
 
-Slides included in the presentation include the following:
-1. ADD HERE
-    - Add description
+We ran a variety of machine learning algorithms to determine the best model to use:
+1. Extra Tress
+2. Lasso
+3. Linear Regression
+4. Random Forest
+5. Ridge
+6. Stochastic Gradient Descent  
+  
+Overall, we determined the XXXX model was the best fit for our project because .... ADD.  
+  
+<img src="./images/dollar.png" width="200" height="200" />
 
+#
+
+## Model Performance:
+
+ADD HERE.  Techniques used to evaluate the model performance included...
+
+#
+
+## Summary of Conclusions/Predictions:
+
+ADD HERE.  Include numerical summary (what data your model yielded) as well as visualizations of that summary (plots of the final model evaluation and prediction)
+
+<img src="./images/XXXX.png" width="200" height="200" />
+
+#
+
+## Conclusion:
+
+  
+ADD HERE.  Based on our analysis, FinTech Bootcamp graduates can potentially earn a salary between X and Y, with higher salaries 
+for those possessing more key skills.  
+  
+Difficulties/implications:  Salaries in rupees/converted to USD; Job postings are in India, not US; Job descriptions 
+may not include specific language/terms used when searching for key skills.  
+  
+Potential Next Steps:  Continue searching for an API with US-based jobs in USD, or pay the fee for the Monster US API.  
+  
+    
+<img src="./images/fintechjobs.png" width="400" height="400" />
 
 #
 
 ## Rough Breakdown of Tasks Completed:
-- Jupyter Notebook Data Exploration - All
-- Jupyter Notebook Data Cleanup - All
-- Train/Test Model - All (TO DO BY NEXT CLASS!!!)
-- Readme draft preparation - Rachel DONE
-- Draft html presentation code - Rachel DONE
+- Jupyter Notebook Creation
+- Data Exploration, Preparation and Cleanup
+- Running various models
+- Training/testing
+- Analysis and Conclusion
+- Readme preparatione
+- html presentation code
 
 #
 
@@ -92,8 +147,8 @@ Please note that salaries are in rupees and not U.S. dollars.  We converted the 
 Please refer to the following workpapers in GitHub:
 - This **ReadMe** file (Includes a summary of the project)
 - **XXXX.html** file (Class Presentation)
-- **starter_code.ipynb** file (Includes all code details)
-- **XXX.mov** file (Demo of our chatbot)
+- **XXXX.ipynb** file (Includes all code details)
+-**XXXX.py** file (This is the Spyder file we used to dig into the data)
 - **Images** folder (Includes various images included in our project)
 #
 
