@@ -76,6 +76,7 @@ Our process consisted of data exploration,  data preparation, and data cleanup.
 Data Issues: 
 - Most salaries were in Indian rupees, not USD, so conversion was necessary.
 - Some salaries may be skewed because there are some outliers from different countries/currencies in the data obtained from the API.
+- There were likely job postings/salaries posted multiple times.
 - The job posting "skills" section did not include the information we needed, so we had to rely on the job description to find job skills.
 - Determining like-words for key skills was subjective, which may not capture all.
 - As shown in the graph below, the most broad salary range includes at least one skill.
@@ -98,9 +99,10 @@ We ran a variety of machine learning algorithms to determine the best model to u
 
 ## Model Performance:
 
-Techniques used to evaluate the model performance included running various machine learning algorithms to determine the best model.  Overall, we determined the Linear Regression model was the best fit for our project because it resulted in an R2 value closest to 1 and the lowest Mean Squared Error and Root Mean Squared Error scores.    
-  
-<img src="./images/data.png" width="300" height="300" />
+Techniques used to evaluate the model performance included running various machine learning algorithms to determine the best model.  Overall, we determined the Linear Regression model was the best fit for our project because it resulted in an R2 value closest to 1 and the lowest Mean Squared Error and Root Mean Squared Error scores the most times when re-running the model.  
+
+ 
+<img src="./images/data.png" width="600" height="200" /> 
 
 
 #
