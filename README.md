@@ -8,14 +8,14 @@ Prepared by: Andrew Crawford, Margee Lancaster Rachel Pierce, Jinhyeong Park
 
 #
 
-## Project Title:
+## Project Title
 Predicting FinTech Bootcamp Graduate Salaries  
 
 ![image](./images/programmingsalaries.png)
 
 #
 
-## Project Team Members:
+## Project Team Members
 - Andrew Crawford
 - Margee Lancaster
 - Rachel Pierce
@@ -36,7 +36,7 @@ Our hypothesis is that the more key skills you possess, the higher the salary.
 
 #
 
-## Brief Background of Key Skills:
+## Brief Background of Key Skills
 As part of the U of MN FinTech Bootcamp, we have obtained the necessary skills to automate and improve financial services using cutting-edge technology.  Skills gained at the conclusion of Bootcamp include the following:   
   
 <img src="./images/Skills.png" width="400" height="400" />
@@ -44,7 +44,7 @@ As part of the U of MN FinTech Bootcamp, we have obtained the necessary skills t
 We selected key skills from this course to use in our analysis.
 #
 
-## Datasets Used:
+## Datasets Used
 We used data obtained from the Monster India API.
 - https://crawlfeeds.com/datasets/monster-india-jobs-dataset    
   
@@ -66,7 +66,7 @@ We also used like-terms in our model to capture these skills using various termi
 
 #
 
-##  Data Phases:
+##  Data Phases
 Our process consisted of data exploration,  data preparation, and data cleanup. 
   
 - *Data Exploration:* Google seaches, API searches, Monster India API, FinTech Bootcamp Curriculum  
@@ -85,7 +85,7 @@ Data Issues:
 
  # 
 
-## Training/Testing and Predictive Model Evaluation:
+## Training/Testing and Predictive Model Evaluation
 
 We ran a variety of machine learning algorithms to determine the best model to use:
 1. Linear Regression
@@ -97,7 +97,7 @@ We ran a variety of machine learning algorithms to determine the best model to u
 
 #
 
-## Model Performance:
+## Model Performance
 
 Techniques used to evaluate the model performance included running various machine learning algorithms to determine the best model.  Overall, we determined the Linear Regression model was the best fit for our project because it resulted in an R2 value closest to 1 and the lowest Mean Squared Error and Root Mean Squared Error scores the most times when re-running the model.  
 
@@ -107,7 +107,7 @@ Techniques used to evaluate the model performance included running various machi
 
 #
 
-## Summary of Conclusions/Predictions:
+## Summary of Conclusions/Predictions
 
 Our model was not able to accurately predict salaries due to the limited data set.  Predicted salaries appear to be more of an average across the population.  Data implications, as discussed above, resulted in less reliable results, but could be improved with more data and a more relevant API.  
   
@@ -116,7 +116,7 @@ Our model was not able to accurately predict salaries due to the limited data se
 
 #
 
-## Conclusion:
+## Conclusion
 
   
 Based on our analysis, we were not able to determine salary ranges for FinTech Bootcamp graduates.  However, the job salaries that included skills we have learned in this bootcamp were up to $80,000 (converted from Indian rupees, of course!)
@@ -132,7 +132,7 @@ Continue searching for an API with US-based jobs in USD, or pay the fee for the 
 
 #
 
-## Rough Breakdown of Tasks Completed:
+## Rough Breakdown of Tasks Completed
 - Jupyter Notebook Creation
 - Data Exploration, Preparation and Cleanup
 - Running various machine learning models
@@ -143,7 +143,7 @@ Continue searching for an API with US-based jobs in USD, or pay the fee for the 
 
 #
 
-## Additional Notes:
+## Additional Notes
 Please note that most salaries are in rupees and not U.S. dollars.  We converted the salaries to US dollars after data cleanup, but keep in mind these salaries are based in India and may be lower than those in the US.
 
 #
@@ -158,7 +158,7 @@ Please refer to the following workpapers in GitHub:
 - **Images** folder (Includes various images included in our project)
 #
 
-## References:
+## References
 
 - [Monster API Page](https://crawlfeeds.com/datasets/monster-india-jobs-datase)
 - [FinTech Bootcamp Curriculum Overview](https://bootcamp.umn.edu/fintech/)
