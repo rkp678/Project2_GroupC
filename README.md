@@ -111,8 +111,8 @@ Techniques used to evaluate the model performance included running various machi
 
 Our model was not able to accurately predict salaries due to the limited data set.  Predicted salaries appear to be more of an average across the population.  Data implications, as discussed above, resulted in less reliable results, but could be improved with more data and a more relevant API.  
   
-<img src="./Images/predictedvaluechart.png" width="400" height="300" />
-<img src="./Images/predictedsalaries.png" width="500" height="300" />
+<img src="./images/predictedvaluechart.png" width="400" height="300" />
+<img src="./images/predictedsalaries.png" width="500" height="300" />
 
 #
 
